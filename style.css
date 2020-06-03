@@ -1,0 +1,61 @@
+html {
+  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  line-height: 1.5rem;
+  font-size: 16px;
+  line-height: 0.8pt; }
+
+body {
+  padding: 0;
+  margin: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+a {
+  text-decoration: none; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+.l-container {
+  margin-top: 124px; }
+
+.strong {
+  font-size: 2rem;
+  color: red; }
+
+.header {
+  text-align: center;
+  margin-bottom: 24px; }
+
+tbody {
+  padding: 8px;
+  margin: 0 auto; }
+
+.l-table {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px; }
+
+.head {
+  height: 40px; }
+
+.before {
+  color: #EEEEEE; }
+
+.table {
+  margin: 0 auto; }
+
+.cell {
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px; }
+
+.catch {
+  display: inline-block;
+  width: 100%;
+  padding: 16px;
+  text-align: center; }
