@@ -1,61 +1,84 @@
 html {
-  font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+  font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma,
+    Sans-Serif;
   line-height: 1.5rem;
   font-size: 16px;
-  line-height: 0.8pt; }
+  line-height: 0.8pt;
+}
 
 body {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
-*, *:before, *:after {
-  box-sizing: border-box; }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 ul {
   list-style: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
 .l-container {
-  margin-top: 124px; }
+  margin-top: 124px;
+}
 
 .strong {
   font-size: 2rem;
-  color: red; }
-
-.header {
-  text-align: center;
-  margin-bottom: 24px; }
+  color: red;
+}
 
 tbody {
   padding: 8px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .l-table {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px; }
+  width: 80vw;
+}
 
 .head {
-  height: 40px; }
+  height: 40px;
+}
 
 .before {
-  color: #EEEEEE; }
+  color: #eeeeee;
+}
+.today {
+  color: rgb(148, 199, 66);
+}
 
 .table {
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
 .cell {
   display: inline-block;
   text-align: center;
   width: 40px;
-  height: 40px; }
+  height: 40px;
+}
 
 .catch {
-  display: inline-block;
-  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 16px;
-  text-align: center; }
+}
+.saturday {
+  color: blue;
+}
+
+.sunday {
+  color: red;
+}
